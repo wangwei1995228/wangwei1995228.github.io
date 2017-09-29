@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	text-decoration: none;
+	padding: 0;
+	list-style: none;
+}
+#header{
+	width: 100%;
+	height: 32px;
+	background-color: #f2f2f2;
+}
+.header{
+	width: 1230px;
+	height: 32px;
+/* 	background-color: yellow; */
+	margin: 0 auto;	
+}
+.header-left{
+		
+}
+.header-left li{
+	float: left;
+	font-size: 10px;
+	color: #999999;
+	margin-left: 20px;
+	line-height: 32px;
+}
+.header-left li:first-child{
+	margin-left: 0;
+}
+.header-left li a{
+	color: #999999;
+}
+.header-left li a:hover{
+	color: #ff0036;
+}
+
+
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 536px;
+	margin: 0 auto;
+/* 	background-color: yellow; */
+}
+.banner-header-border{
+	width: 100%;
+	height: 34px;
+	border-bottom: 2px solid #ff0036;
+}
+.banner-header{
+	width: 1230px;
+	height: 36px;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+.banner-header ul{
+	width: 1230px;
+	height: 36px;
+}
+.banner-header ul li{
+	float: left;
+	margin-left: 19px;
+	font-size: 14px;
+	line-height: 36px;
+}
+.banner-header ul li i{
+	margin-right: 9px;
+	font-size: 14px;
+	color: white;
+}
+.banner-header ul li:first-child{
+	width: 186px;
+	height: 36px;
+	background-color: #ff0036;
+	margin-left: 0px;
+	padding-left: 14px;
+	font-size: 16px;
+	color: white;
+}
+.banner-header ul li:nth-child(2){
+	margin-top: 3px;
+	width: 100px;
+	height: 30px;
+	
+}
+.banner-header ul li:nth-child(3){
+	margin-top: 3px;
+	width: 100px;
+	height: 30px;	
+}
+.banner-header ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-header li a{
+	color: black;
+}
+.banner-header li a:hover{
+	color: #ff0036;
+}
+.banner-body-beijing{
+	width: 100%;
+	height: 500px;
+	background-color: #e8e8e8;
+}
+.banner-body{
+	width: 1230px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-body-img{
+	width: 1230px;
+	height: 500px;
+/* 	background-color: red; */
+}
+.banner-body-img li{
+	width: 1230px;
+	height: 500px;
+/* 	background-color: black; */
+	position: absolute;
+	top: 0;
+
+}
+.banner-body-img li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-body-list{
+	width: 200px;
+	height: 480px;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-body-list ul{
+	width: 200px;
+	height: 480px;
+	/* background-color: green; */
+}
+.banner-body-list ul li{
+	width: 186px;
+	height: 30px;
+	padding-left: 14px;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.banner-body-list ul li i{
+	float: left;
+	font-size: 12px;
+	margin-right: 9px;
+}
+.banner-body-list a{
+	color: #d9dcde;
+}
+.banner-body-list li:hover{
+	background-color: white;
+}
+.banner-body-list li:hover .banner-list-a1{
+	color: #e5457a;
+}
+.banner-body-list li:hover .banner-list-a2{
+	color: #447fef;
+}
+.banner-body-list li:hover .banner-list-a3{
+	color: #694eed;
+}
+.banner-body-list li:hover .banner-list-a4{
+	color: #e5457a;
+}
+.banner-body-list li:hover .banner-list-a5{
+	color: #694eed;
+}
+.banner-body-list li:hover .banner-list-a6{
+	color: #4780ef;
+}
+.banner-body-list li:hover .banner-list-a7{
+	color: #fa5e5e;
+}
+.banner-body-list li:hover .banner-list-a8{
+	color: #f7a831;
+}
+.banner-body-list li:hover .banner-list-a9{
+	color: #f7a831;
+}
+.banner-body-list li:hover .banner-list-a10{
+	color: #427def;
+}
+.banner-body-list li:hover .banner-list-a11{
+	color: #dd2727;
+}
+.banner-body-list li:hover .banner-list-a12{
+	color: #4780ef;
+}
+.banner-body-list li:hover .banner-list-a13{
+	color: #f7a831;
+}
+.banner-body-list li:hover .banner-list-a14{
+	color: #3bc7b0;
+}
+.banner-body-list li:hover .banner-list-a15{
+	color: #3bc7b0;
+}
+.banner-body-list li:hover .banner-list-a16{
+	color: #3cc7b0;
+}
+.bth-body-list{
+	width: 192px;
+	height: 5px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 26px;
+}
+.bth-body-list li{
+	width: 25px;
+	height: 5px;
+	background-color: #51383d;
+	float: left;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.bth-body-list li:first-child{
+	margin-left: 0;
+}
+.bth-body-list li:hover{
+	background-color:#a9a8a8; 
+}
+/* banner结束 */
